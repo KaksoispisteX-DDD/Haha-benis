@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 
 public class Kaksoispiste {
+    Scanner meno=new Scanner(System.in);
 
 public void Fajinovica() {
+
 
 
 
