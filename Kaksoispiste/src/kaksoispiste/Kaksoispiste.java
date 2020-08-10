@@ -2,12 +2,16 @@
 package kaksoispiste;
 import java.util.Scanner;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 
 public class Kaksoispiste {
     Scanner meno=new Scanner(System.in);
     String tvoje_meno="";
 
 public void Fajinovica() {
+    tvoje_meno=meno.nextLine();
+    System.out.println(tvoje_meno+ " bruh");
 
 
 
