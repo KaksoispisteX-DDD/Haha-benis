@@ -11,7 +11,16 @@ public class Kaksoispiste {
 
 public void fajinovica() {
     tvoje_meno=meno.nextLine();
-    System.out.println(tvoje_meno+ " bruh");
+
+    if (tvoje_meno.equals("Patrik")){
+        System.out.println(tvoje_meno+ " fess čavo");
+
+
+
+
+    }
+    else {System.out.println(tvoje_meno+ " bruh");}
+
 
 
 
