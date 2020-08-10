@@ -10,7 +10,7 @@ public class Kaksoispiste {
     String tvoje_meno="";
 
 public void fajinovica() {
-    for(;;){
+    for(int i=0; i<10; i++){
         tvoje_meno=meno.nextLine();
 
         if (tvoje_meno.equals("Patrik")){
