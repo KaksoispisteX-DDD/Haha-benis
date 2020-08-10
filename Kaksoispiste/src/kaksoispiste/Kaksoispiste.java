@@ -9,7 +9,7 @@ public class Kaksoispiste {
     Scanner meno=new Scanner(System.in);
     String tvoje_meno="";
 
-public void Fajinovica() {
+public void fajinovica() {
     tvoje_meno=meno.nextLine();
     System.out.println(tvoje_meno+ " bruh");
 
@@ -23,6 +23,9 @@ public void Fajinovica() {
 
      
     public static void main(String[] args) {
+        Kaksoispiste a = new Kaksoispiste();
+        a.fajinovica();
+
         
     }
     
