@@ -2,6 +2,8 @@
 package kaksoispiste;
 import java.util.Scanner;
 
+import javax.lang.model.util.ElementScanner6;
+
 import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 
 
@@ -15,11 +17,12 @@ public void fajinovica() {
 
         if (tvoje_meno.equals("Patrik")){
             System.out.println(tvoje_meno+ " fess čavo");
-    
-    
-    
-    
         }
+        
+        else if(tvoje_meno.equals("Yegor")){
+            System.out.println(tvoje_meno+ " je špion");
+        }
+
         else {System.out.println(tvoje_meno+ " bruh");}
     }
 
