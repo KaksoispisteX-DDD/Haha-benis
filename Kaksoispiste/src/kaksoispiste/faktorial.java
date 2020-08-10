@@ -1,9 +1,7 @@
-package faktorial;
+package kaksoispiste;
 
 
-public class faktorial {
-
-
+public class faktorial{
 
 
 
@@ -11,7 +9,6 @@ public class faktorial {
 
 
     public static void main(String[] args) {
-
 
 
 
