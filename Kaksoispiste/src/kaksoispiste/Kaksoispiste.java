@@ -10,16 +10,18 @@ public class Kaksoispiste {
     String tvoje_meno="";
 
 public void fajinovica() {
-    tvoje_meno=meno.nextLine();
+    for(;;){
+        tvoje_meno=meno.nextLine();
 
-    if (tvoje_meno.equals("Patrik")){
-        System.out.println(tvoje_meno+ " fess čavo");
-
-
-
-
+        if (tvoje_meno.equals("Patrik")){
+            System.out.println(tvoje_meno+ " fess čavo");
+    
+    
+    
+    
+        }
+        else {System.out.println(tvoje_meno+ " bruh");}
     }
-    else {System.out.println(tvoje_meno+ " bruh");}
 
 
 
