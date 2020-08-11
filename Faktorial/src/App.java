@@ -7,6 +7,7 @@ public class App {
     int cislo = 0;
     long vysledok = 1;
     public void faktorial(){
+        cislo = novy.nextInt();
         for(int i=2;i<=cislo;i++){
             vysledok = vysledok*i;
 
@@ -26,6 +27,7 @@ public class App {
 
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        App a=new App();
+        a.faktorial();
     }
 }
