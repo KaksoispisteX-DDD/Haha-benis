@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class niaky_program {
     Scanner vstup = new Scanner(System.in);
     String zakladna_premenna = vstup.nextLine();
-    public void pyramida(){
+    public void hlavny(){
 
     
     if (zakladna_premenna.equals("pyramida")){
@@ -16,14 +16,18 @@ public class niaky_program {
 
     }
     else {
-        System.out.println("Si kokot");
+        System.out.println("Nedal si správne heslo");
 
     }
 
 
 
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
+
+        niaky_program a=new niaky_program();
+        a.hlavny();
+
         
         
     }
