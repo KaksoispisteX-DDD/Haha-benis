@@ -6,10 +6,11 @@ import java.util.Scanner;
  */
 public class niaky_program {
     Scanner vstup = new Scanner(System.in);
+    String zakladna_premenna = vstup.nextLine();
     public void pyramida(){
 
     
-    if (vstup.equals("pyramida")){
+    if (zakladna_premenna.equals("pyramida")){
         System.out.println("Pyramidka");
 
 
